@@ -1,6 +1,8 @@
 boleto = input("¿Tiene usted boleto? si/no ").lower()
 
 if boleto == "si":
-    print("Puede entrar")
+    print("Acceso permitido")
+elif boleto == "no":
+    print("Acceso denegado")
 else:
-    print("No puede entrar")
+    print("Respuesta no válida, por favor escriba si o no")
